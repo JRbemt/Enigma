@@ -1,0 +1,183 @@
+html, body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #EBEAE8;
+}
+html {
+  overflow-y: scroll;
+}
+.page {
+  padding-top: 50px;
+}
+.content-window {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #329495;
+  box-shadow: 0 1pt 5pt 1pt lightslategrey;
+}
+.rotor-specs {
+  min-height: 170px;
+  width: 200px;
+  margin-left: -220px;
+  float: left;
+  background-color: #308491;
+}
+#rotor-display input {
+  width: 100%;
+  margin-bottom: 0;
+}
+.rotor-settings {
+  min-height: 170px;
+  width: 200px;
+  margin-right: -220px;
+  float: right;
+  background-color: #308491;
+}
+#info-settings {  /* JS hook*/
+  margin-top: 100px;
+}
+.rotor-label {
+  text-align: center;
+  display: block;
+  padding-top: 5px;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  height: 12px;
+}
+.cropped-label {
+  padding: 0;
+}
+.rotor-label:hover {
+
+}
+.rotor-label:first-child {
+  padding-top: 10px;
+}
+#rotor-positions, #rotor-startpositions, #rotor-type, #reflector-type {
+  /* JS hooks */
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.rotor-slot , .rotor-start{
+  width: 29px;
+  height: 27px;
+  text-align: center;
+  padding: 0;
+  font-size: 24px;
+  margin: 1px;
+}
+.rotor-start{
+
+}
+#input-field {
+  /* JS hook*/
+  width: 300px;
+  height: 60px;
+  resize: vertical;
+  margin-left: -3px;
+}
+#input-lamps {
+  /*JS hook*/
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+.lamp-row {
+  width: auto;
+  text-align: center;
+}
+.key-lamp {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 25px;
+  background-color: lightseagreen;
+  border: 1px solid antiquewhite;
+  border-radius: 20px;
+  color: white;
+  margin: 5px 5px 0 0;
+  text-align: center;
+  transition: background-color .5s ease;
+}
+.lamp-row .key-light:last-child {
+  margin-right: 0;
+}
+.info-container {
+  background-color: #24646B;
+  width  : 750px;
+  margin : 0 auto;
+  min-height: 80px;
+  padding : 5px 0 10px 0;
+}
+.rotor-maininfo , .rotor-sideinfo, .reflector-maininfo, .reflector-sideinfo {
+  padding-left: 20px;
+  white-space: pre;
+}
+.rotor-maininfo {
+  color: white;
+  font-size: 17px;
+  margin-top: 5px;
+}
+.rotor-sideinfo {
+    color: antiquewhite;
+    font-size: 15px;
+    border-bottom: 1px solid lightgreen;
+}
+.reflector-maininfo {
+  color : greenyellow;
+   font-size: 17px;
+   margin-top: 5px;
+}
+.reflector-sideinfo {
+  color : lightgreen;
+  font-size: 15px;
+}
+#enigma-plugboard {
+  width: 90%;
+  margin : 0 auto;
+}
+.plugboard{
+  margin: 0 auto;
+  width: 100%;
+  margin-left: -3px;
+  margin-top: 5px;
+}
+.output-window {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 200px;
+  background-color: cadetblue;
+  color: black;
+  font-size: 13px;
+}
+#output-field {
+  /*JS hook*/
+  width: 285px;
+  margin: 5px 5px 2px;
+  height: 80px;
+  resize: vertical;
+}
+input:disabled, select:disabled {
+  background-color: lightgrey;
+}
+textarea:disabled {
+  background-color: lightgray;
+  color: black;
+}
+.output-settings {
+  display: inline-block;
+  width: 100px;
+  height: 96px;
+  margin-right: -120px;
+  float: right;
+  background-color: #308491;
+}
+.output-settings input {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 0;
+}

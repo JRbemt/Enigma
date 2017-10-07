@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="gui.js"        type="text/javascript"></script>
+    <script src="plugboard.js"  type="text/javascript"></script>
+    <script src="output.js"     type="text/javascript"></script>
+    <script src="keyboard.js"   type="text/javascript"></script>
+    <script src="lamps.js"      type="text/javascript"></script>
+    <script src="rotor.js"      type="text/javascript"></script>
+    <script src="reflector.js"  type="text/javascript"></script>
+    <script src="morse.js"      type="text/javascript"></script>
+    <script src="controls.js"   type="text/javascript"></script>
+    <script src="enigma.js"     type="text/javascript"></script>  <!-- load last -->
+  </head>
+
+
+  <body onload="createEnigma()">
+    <div class="page">
+      <div class = "content-window">
+        <div class="rotor-specs">
+          <div class="rotor-label">current position</div>
+          <div id="rotor-positions">
+
+          </div>
+          <div class="rotor-label cropped-label">starting position</div>
+          <div id="rotor-startpositions">
+
+          </div>
+          <div class="rotor-label cropped-label">display as number</div>
+          <div id="rotor-display">
+
+          </div>
+        </div>
+        <div class="rotor-settings">
+          <div class="rotor-label">rotor type</div>
+          <div id="rotor-type">
+
+          </div>
+          <div class="rotor-label">reflector type</div>
+          <div id="reflector-type">
+
+          </div>
+          <div class="rotor-label">plugboard</div>
+          <div id="enigma-plugboard">
+
+          </div>
+        </div>
+        <div class="input-window">
+          <textarea id="input-field"></textarea>
+          <div id="input-lamps">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="output-window">
+      <div class="output-settings">
+        <div class="rotor-label">plugboard</div>
+
+        <div id="check-plug">
+        </div>
+        <div class="rotor-label">to morse</div>
+        <div id ="check-morse">
+
+        </div>
+
+
+      </div>
+      <textarea disabled id="output-field">
+
+      </textarea>
+
+    </div>
+    <div id="info-settings">
+
+    </div>
+  </body>
+</html>
